@@ -87,17 +87,17 @@ function validateForm(e){
           <div className="wrapper">
             <h1 className="heading">Create Account</h1>
             <div className="social-login">
-              <a href="#">
+              <a href="https://www.google.com/">
                 <img src={search} alt="google" />
                 <span>Sign up with Google</span>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/">
                 <img src={facebook} alt="facebook" />
                 <span>Sign up with Facebook</span>
               </a>
             </div>
             <div className="or">- OR -</div>
-            <form action="#" className="form" onSubmit={validateForm}>
+            <form className="form" onSubmit={validateForm}>
               <div className="input-group">
                 <input
                   type="text"
