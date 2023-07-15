@@ -17,4 +17,4 @@ This is a simple SignUp form component built using React. It allows users to cre
 
 ## Deployment
 
-Deployed link:
+Deployed link: https://signup-now.netlify.app/
