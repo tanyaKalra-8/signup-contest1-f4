@@ -10,10 +10,11 @@ This is a simple SignUp form component built using React. It allows users to cre
 
 ## Technologies Used
 
-- React
 - HTML
 - CSS
+- javascript
+- React
 
-## Installation
+## Deployment
 
 Deployed link:
