@@ -58,7 +58,7 @@ function validateForm(e){
         setError("Error: Error: Please enter a valid email address.It should contain @ and .!");
         return;
     }
-    else if(password.length < 8 || password.length > 20){
+    else if(password.length < 6 || password.length > 20){
         setSuccess()
         setError("Error: The password must be between 6 and 20 characters in length!");
         return;
@@ -70,6 +70,10 @@ function validateForm(e){
     }
     else{
         setError();
+        setName("");
+        setEmail("");
+        setPassword("");
+        setConfirmPassword("");
         setSuccess("Successfully Created!");
     }
 }
