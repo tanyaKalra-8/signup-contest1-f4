@@ -131,15 +131,15 @@
     cursor: pointer;
 }
 .error{
-    margin-top: 20px;
     color: red;
     font-size: 16px;
-    text-align: center;
 }
 .success{
     color: green;
     font-size: 16px;
-    text-align: center;
+}
+.message{
+  text-align: center;
 }
 .close-eye{
     transform: rotate(90deg);

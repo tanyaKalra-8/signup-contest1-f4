@@ -61,7 +61,7 @@ const SignUp = () => {
         "Error: The password must be between 6 and 20 characters in length!"
       );
       return;
-    } else if (!password) {
+    } else if (!confirmPassword) {
       setSuccess();
       setError("Error: Confirm your password!");
       return;
@@ -148,8 +148,10 @@ const SignUp = () => {
               <button type="submit" className="btn">
                 Create Account
               </button>
-              <span className="error">{error}</span>
-              <span className="success">{success}</span>
+              <div className="message">
+                  <span className="error">{error}</span>
+                  <span className="success">{success}</span>
+              </div>
             </form>
           </div>
         </div>
